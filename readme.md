@@ -9,7 +9,7 @@ This repository contains the static CDN build generated from `lark-plugin-ai-bui
 ## Build Source
 
 - Source repository: `nest_back_all/lark-plugin-ai-builder`
-- Source commit: `f379a31`
+- Source commit: `55c78a6`
 - API base: `https://ai.cmarvel.cn`
 
 ## Rebuild

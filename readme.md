@@ -9,7 +9,7 @@ This repository contains the static CDN build generated from `lark-plugin-ai-bui
 ## Build Source
 
 - Source repository: `nest_back_all/lark-plugin-ai-builder`
-- Source commit: `55c78a6`
+- Source commit: `33fab4d`
 - API base: `https://ai.cmarvel.cn`
 
 ## Rebuild
@@ -20,4 +20,5 @@ From the source repository:
 pnpm --prefix lark-plugin-ai-builder run build:all
 ```
 
-Then replace this repository's `dist/` directory with the generated `lark-plugin-ai-builder/dist/` directory.
+Then copy the generated files into this repository's `dist/` directory. Keep older hashed files in
+`dist/assets/` so cached plugin entry files can still load their matching chunks.
